@@ -1,0 +1,25 @@
+.footer {
+  margin: 16px 0;
+}
+
+
+.footer .footer-box {
+  position: relative;
+  height: 30px;
+  /* background-color: pink; */
+}
+
+.footer .footer-box p {
+  position: absolute;
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+
+  left: 266px;
+}
+
+.footer .footer-box img {
+  position: absolute;
+  top: 7px;
+  right: 270px;
+}

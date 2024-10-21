@@ -1,0 +1,40 @@
+ .header .box1 {
+   position: relative;
+   background-color: #ffffff;
+   height: 62px;
+ }
+
+ .header .box1 img:nth-child(1) {
+   position: absolute;
+   left: 182px;
+   top: 20px;
+ }
+
+ .header .box1 img:nth-child(2) {
+   position: absolute;
+   right: 192px;
+   top: 20px;
+ }
+
+ .header .box2 {
+   background-color: #dedede;
+   height: 55px;
+   /* font-size: 20px; */
+ }
+
+ .header .box2 ul {
+   display: flex;
+   justify-content: center;
+
+ }
+
+ .header .box2 ul li {
+   display: inline-block;
+   width: 130px;
+   height: 55px;
+   border: 1px solid #ffffff;
+   line-height: 55px;
+   font-weight: 500;
+   font-size: 18px;
+   text-align: center;
+ }
